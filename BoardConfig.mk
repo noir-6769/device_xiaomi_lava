@@ -32,3 +32,6 @@ ODM_MANIFEST_SKUS += \
     galahad
 
 ODM_MANIFEST_GALAHAD_FILES := $(DEVICE_PATH)/manifest_galahad.xml
+
+# ANXCamera
+-include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
